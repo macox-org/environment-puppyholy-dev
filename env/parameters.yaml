@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:puppyholy/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:puppyholy/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:puppyholy/prow:hmacToken
+segmentWriteKey: vault:puppyholy:segmentWriteKey
